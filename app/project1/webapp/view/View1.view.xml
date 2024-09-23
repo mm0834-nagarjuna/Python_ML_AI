@@ -7,7 +7,7 @@
     xmlns:core="sap.ui.core"
     xmlns:mvc="sap.ui.core.mvc"
     height="100%">
-    <Page id="page1" title="ChatPage">
+    <Page id="page1" title="Text Context">
         <Panel id="panel1">
             <content>
                 <Input
@@ -18,8 +18,9 @@
                 </Input>
                 <Button
                     id="sendbtn"
+                    type="Emphasized"
                     text="Send"
-                    width="20%"
+                    width="10%"
                     class="sapUiSmallMargin myCustomButton"
                     press="onSend"
                     ariaHasPopup="Dialog">
