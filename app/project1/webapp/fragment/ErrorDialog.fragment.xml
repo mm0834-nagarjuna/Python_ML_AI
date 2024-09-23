@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog
+        id="errorDialog"
+        title="Error"
+        type="Message"
+        state="Error"
+       >
+        <VBox>
+        <Text id="errorTitle" text="{/errorTitle}" wrapping="true" />
+            <Text id="errorMessage" text="{/errorMessage}" wrapping="true" />
+            
+        </VBox>
+        <buttons>
+            <Button
+                text="Close"
+                press="onCloseErrorDialog" />
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

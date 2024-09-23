@@ -1,0 +1,43 @@
+<mvc:View xmlns:p13n="sap.m.p13n"
+    controllerName="frontend.project1.controller.View1"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    height="100%">
+    <Page id="page1" title="ChatPage">
+        <Panel id="panel1">
+            <content>
+                <Input
+                    id="promptInput"
+                    placeholder="Enter Prompt"
+                    width="70%"
+                    class="sapUiSmallMargin myCustomInput">
+                </Input>
+                <Button
+                    id="sendbtn"
+                    text="Send"
+                    width="20%"
+                    class="sapUiSmallMargin myCustomButton"
+                    press="onSend"
+                    ariaHasPopup="Dialog">
+                </Button>
+            </content>
+        </Panel>
+        <Shell id="shell1" class="sapUiSmallMargin shellScrollable" >
+            <Page >
+            <content>
+            <Panel >
+            <content>
+            <VBox id="vbox1" class="sapUiSmallMargin" >
+                <!-- Cards will be dynamically added here -->
+            </VBox>
+            </content>
+            </Panel>
+            </content>
+            </Page>
+        </Shell>
+    </Page>
+</mvc:View>

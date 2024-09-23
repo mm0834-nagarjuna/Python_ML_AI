@@ -1,0 +1,24 @@
+/* Enter your custom styles here */
+#page1 {
+    height: 1000px;
+}
+.shellScrollable {
+    height: 80%;
+    overflow-y: auto; 
+}
+.myCustomText {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.myCustomText strong {
+    font-weight: bold;
+}
+
+.myCustomValue {
+    color: green;
+    font-weight: 700;
+}
+.boldText {
+    font-weight: bold;
+}
