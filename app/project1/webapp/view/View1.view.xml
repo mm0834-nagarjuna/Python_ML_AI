@@ -33,7 +33,7 @@
             <Panel >
             <content>
             <VBox id="vbox1" class="sapUiSmallMargin" >
-                <!-- Cards will be dynamically added here -->
+                <!-- Cards -->
             </VBox>
             </content>
             </Panel>

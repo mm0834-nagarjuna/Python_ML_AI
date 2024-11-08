@@ -207,7 +207,6 @@ sap.ui.define([
                     template: oTemplate
                 });
 
-                // Add the table to the VBox
                 oVBox.insertItem(oTable, 0);
             } catch (error) {
                 console.log(error)
@@ -284,11 +283,9 @@ sap.ui.define([
 
                     var sUrl = "https://myApp-appreciative-gerenuk-xj.cfapps.us10-001.hana.ondemand.com/generate";
 
-                    // Log payload and URL
                     console.log("Payload:", JSON.stringify(oPayload));
                     console.log("URL:", sUrl);
                     that.showBusyDialog()
-                    // Make AJAX POST request
                     $.ajax({
                         url: sUrl,
                         type: 'POST',
